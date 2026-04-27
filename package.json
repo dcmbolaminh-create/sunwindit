@@ -1,0 +1,33 @@
+{
+  "name": "vanminh-taixiu-vip-pro",
+  "version": "3.0.0",
+  "description": "🎲 VANMINH AI VIP PRO - API Tài Xỉu realtime + dự đoán + anti crash",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "prod": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "taixiu",
+    "md5",
+    "websocket",
+    "ai",
+    "prediction",
+    "vip",
+    "api"
+  ],
+  "author": "@vanminh2603",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
